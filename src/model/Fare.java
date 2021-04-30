@@ -2,7 +2,7 @@ package model;
 
 public class Fare {
 
-	public static double MAX_FARE=3.2;
+	public static final double MAX_FARE=3.2;
 	
 	public static double calculateFare(Transport transport, Station start, Station stop) {
 
